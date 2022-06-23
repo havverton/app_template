@@ -1,0 +1,162 @@
+app_title: Title example
+
+
+home:
+  wind: Wind
+  wind_speed(int value): '$value km/h'
+  now: Now
+  change_region: Change region
+  cancel: CANCEL
+  apply: APPLY
+  region_hint: Region...
+
+
+errors:
+  no_internet_connection: No Internet Connection
+  something_went_wrong: Something went wrong
+
+weather_status:
+  sunny:
+    day: Sunny
+    night: Clear
+  partly_cloudy:
+    day: Partly cloudy
+    night: Partly cloudy
+  cloudy:
+    day: Cloudy
+    night: Cloudy
+  overcast:
+    day: Overcast
+    night: Overcast
+  mist:
+    day: Mist
+    night: Mist
+  patchy_rain_possible:
+    day: Patchy rain possible
+    night: Patchy rain possible
+  patchy_snow_possible:
+    day: Patchy snow possible
+    night: Patchy snow possible
+  patchy_sleet_possible:
+    day: Patchy sleet possible
+    night: Patchy sleet possible
+  patchy_freezing_drizzle_possible:
+    day: Patchy freezing drizzle possible
+    night: Patchy freezing drizzle possible
+  thundery_outbreaks_possible:
+    day: Thundery outbreaks possible
+    night: Thundery outbreaks possible
+  blowing_snow:
+    day: Blowing snow
+    night: Blowing snow
+  blizzard:
+    day: Blizzard
+    night: Blizzard
+  fog:
+    day: Fog
+    night: Fog
+  freezing_fog:
+    day: Freezing fog
+    night: Freezing fog
+  patchy_light_drizzle:
+    day: Patchy light drizzle
+    night: Patchy light drizzle
+  light_drizzle:
+    day: Light drizzle
+    night: Light drizzle
+  freezing_drizzle:
+    day: Freezing drizzle
+    night: Freezing drizzle
+  heavy_freezing_drizzle:
+    day: Heavy freezing drizzle
+    night: Heavy freezing drizzle
+  patchy_light_rain:
+    day: Patchy light rain
+    night: Patchy light rain
+  light_rain:
+    day: Light rain
+    night: Light rain
+  moderate_rain_at_times:
+    day: Moderate rain at times
+    night: niModerate rain at timesght
+  moderate_rain:
+    day: Moderate rain
+    night: Moderate rain
+  heavy_rain_at_times:
+    day: Heavy rain at times
+    night: Heavy rain at times
+  heavy_rain:
+    day: Heavy rain
+    night: Heavy rain
+  light_freezing_rain:
+    day: Light freezing rain
+    night: Light freezing rain
+  moderate_or_heavy_freezing_rain:
+    day: Moderate or heavy freezing rain
+    night: Moderate or heavy freezing rain
+  light_sleet:
+    day: Light sleet
+    night: Light sleet
+  moderate_or_heavy_sleet:
+    day: Moderate or heavy sleet
+    night: Moderate or heavy sleet
+  patchy_light_snow:
+    day: Patchy light snow
+    night: Patchy light snow
+  light_snow:
+    day: Light snow
+    night: Light snow
+  patchy_moderate_snow:
+    day: Patchy moderate snow
+    night: Patchy moderate snow
+  moderate_snow:
+    day: Moderate snow
+    night: Moderate snow
+  patchy_heavy_snow:
+    day: Patchy heavy snow
+    night: Patchy heavy snow
+  heavy_snow:
+    day: Heavy snow
+    night: Heavy snow
+  ice_pellets:
+    day: Ice pellets
+    night: Ice pellets
+  light_rain_shower:
+    day: Light rain shower
+    night: Light rain shower
+  moderate_or_heavy_rain_shower:
+    day: Moderate or heavy rain shower
+    night: Moderate or heavy rain shower
+  torrential_rain_shower:
+    day: Torrential rain shower
+    night: Torrential rain shower
+  light_sleet_showers:
+    day: Light sleet showers
+    night:  Light sleet showers
+  moderate_or_heavy_sleet_showers:
+    day: Moderate or heavy sleet showers
+    night: Moderate or heavy sleet showers
+  light_snow_showers:
+    day: Light snow showers
+    night: Light snow showers
+  moderate_or_heavy_snow_showers:
+    day: Moderate or heavy snow showers
+    night: Moderate or heavy snow showers
+  light_showers_of_ice_pellets:
+    day: Light showers of ice pellets
+    night: Light showers of ice pellets
+  moderate_or_heavy_showers_of_ice_pellets:
+    day: Moderate or heavy showers of ice pellets
+    night: Moderate or heavy showers of ice pellets
+  patchy_light_rain_with_thunder:
+    day: Patchy light rain with thunder
+    night: Patchy light rain with thunder
+  moderate_or_heavy_rain_with_thunder:
+    day: Moderate or heavy rain with thunder
+    night: Moderate or heavy rain with thunder
+  patchy_light_snow_with_thunder:
+    day: Patchy light snow with thunder
+    night: Patchy light snow with thunder
+  moderate_or_heavy_snow_with_thunder:
+    day: Moderate or heavy snow with thunder
+    night: Moderate or heavy snow with thunder
