@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../app/routing/routing.dart';
 import '../environment_service.dart';
 import '../logger/logger.dart';
-
+@module
 abstract class RegisterModule {
   @lazySingleton
   AppRouter appRouter() => AppRouter();

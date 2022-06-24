@@ -1,0 +1,10 @@
+fvm flutter clean;
+rm -rf ./ios/Pods;
+rm ./ios/Podfile.lock; 
+rm -rf ./ios/Flutter/Flutter.framework;
+rm ./pubspec.lock;
+rm ./.packages;
+fvm flutter pub get;
+cd ./ios;
+pod install;
+cd ../;

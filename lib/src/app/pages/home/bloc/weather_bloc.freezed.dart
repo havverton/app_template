@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'weather_bloc.dart';
@@ -11,25 +12,7 @@ part of 'weather_bloc.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
-
-/// @nodoc
-class _$WeatherEventTearOff {
-  const _$WeatherEventTearOff();
-
-  _Load load(WeatherQuery query) {
-    return _Load(
-      query,
-    );
-  }
-
-  _Restore restore() {
-    return const _Restore();
-  }
-}
-
-/// @nodoc
-const $WeatherEvent = _$WeatherEventTearOff();
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
 mixin _$WeatherEvent {
@@ -90,26 +73,26 @@ class _$WeatherEventCopyWithImpl<$Res> implements $WeatherEventCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$LoadCopyWith<$Res> {
-  factory _$LoadCopyWith(_Load value, $Res Function(_Load) then) =
-      __$LoadCopyWithImpl<$Res>;
+abstract class _$$_LoadCopyWith<$Res> {
+  factory _$$_LoadCopyWith(_$_Load value, $Res Function(_$_Load) then) =
+      __$$_LoadCopyWithImpl<$Res>;
   $Res call({WeatherQuery query});
 }
 
 /// @nodoc
-class __$LoadCopyWithImpl<$Res> extends _$WeatherEventCopyWithImpl<$Res>
-    implements _$LoadCopyWith<$Res> {
-  __$LoadCopyWithImpl(_Load _value, $Res Function(_Load) _then)
-      : super(_value, (v) => _then(v as _Load));
+class __$$_LoadCopyWithImpl<$Res> extends _$WeatherEventCopyWithImpl<$Res>
+    implements _$$_LoadCopyWith<$Res> {
+  __$$_LoadCopyWithImpl(_$_Load _value, $Res Function(_$_Load) _then)
+      : super(_value, (v) => _then(v as _$_Load));
 
   @override
-  _Load get _value => super._value as _Load;
+  _$_Load get _value => super._value as _$_Load;
 
   @override
   $Res call({
     Object? query = freezed,
   }) {
-    return _then(_Load(
+    return _then(_$_Load(
       query == freezed
           ? _value.query
           : query // ignore: cast_nullable_to_non_nullable
@@ -135,7 +118,7 @@ class _$_Load implements _Load {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _Load &&
+            other is _$_Load &&
             const DeepCollectionEquality().equals(other.query, query));
   }
 
@@ -145,8 +128,8 @@ class _$_Load implements _Load {
 
   @JsonKey(ignore: true)
   @override
-  _$LoadCopyWith<_Load> get copyWith =>
-      __$LoadCopyWithImpl<_Load>(this, _$identity);
+  _$$_LoadCopyWith<_$_Load> get copyWith =>
+      __$$_LoadCopyWithImpl<_$_Load>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -212,27 +195,28 @@ class _$_Load implements _Load {
 }
 
 abstract class _Load implements WeatherEvent {
-  const factory _Load(WeatherQuery query) = _$_Load;
+  const factory _Load(final WeatherQuery query) = _$_Load;
 
-  WeatherQuery get query;
+  WeatherQuery get query => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  _$LoadCopyWith<_Load> get copyWith => throw _privateConstructorUsedError;
+  _$$_LoadCopyWith<_$_Load> get copyWith => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$RestoreCopyWith<$Res> {
-  factory _$RestoreCopyWith(_Restore value, $Res Function(_Restore) then) =
-      __$RestoreCopyWithImpl<$Res>;
+abstract class _$$_RestoreCopyWith<$Res> {
+  factory _$$_RestoreCopyWith(
+          _$_Restore value, $Res Function(_$_Restore) then) =
+      __$$_RestoreCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$RestoreCopyWithImpl<$Res> extends _$WeatherEventCopyWithImpl<$Res>
-    implements _$RestoreCopyWith<$Res> {
-  __$RestoreCopyWithImpl(_Restore _value, $Res Function(_Restore) _then)
-      : super(_value, (v) => _then(v as _Restore));
+class __$$_RestoreCopyWithImpl<$Res> extends _$WeatherEventCopyWithImpl<$Res>
+    implements _$$_RestoreCopyWith<$Res> {
+  __$$_RestoreCopyWithImpl(_$_Restore _value, $Res Function(_$_Restore) _then)
+      : super(_value, (v) => _then(v as _$_Restore));
 
   @override
-  _Restore get _value => super._value as _Restore;
+  _$_Restore get _value => super._value as _$_Restore;
 }
 
 /// @nodoc
@@ -248,7 +232,7 @@ class _$_Restore implements _Restore {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _Restore);
+        (other.runtimeType == runtimeType && other is _$_Restore);
   }
 
   @override
@@ -320,38 +304,6 @@ class _$_Restore implements _Restore {
 abstract class _Restore implements WeatherEvent {
   const factory _Restore() = _$_Restore;
 }
-
-/// @nodoc
-class _$WeatherStateTearOff {
-  const _$WeatherStateTearOff();
-
-  InitialWeatherState initial() {
-    return const InitialWeatherState();
-  }
-
-  LoadingWeatherState loading() {
-    return const LoadingWeatherState();
-  }
-
-  NeedRegionWeatherState needRegion() {
-    return const NeedRegionWeatherState();
-  }
-
-  LoadedWeatherState loaded(Forecast forecast) {
-    return LoadedWeatherState(
-      forecast,
-    );
-  }
-
-  ErrorWeatherState error(ErrorMessage message) {
-    return ErrorWeatherState(
-      message,
-    );
-  }
-}
-
-/// @nodoc
-const $WeatherState = _$WeatherStateTearOff();
 
 /// @nodoc
 mixin _$WeatherState {
@@ -430,22 +382,22 @@ class _$WeatherStateCopyWithImpl<$Res> implements $WeatherStateCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class $InitialWeatherStateCopyWith<$Res> {
-  factory $InitialWeatherStateCopyWith(
-          InitialWeatherState value, $Res Function(InitialWeatherState) then) =
-      _$InitialWeatherStateCopyWithImpl<$Res>;
+abstract class _$$InitialWeatherStateCopyWith<$Res> {
+  factory _$$InitialWeatherStateCopyWith(_$InitialWeatherState value,
+          $Res Function(_$InitialWeatherState) then) =
+      __$$InitialWeatherStateCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$InitialWeatherStateCopyWithImpl<$Res>
+class __$$InitialWeatherStateCopyWithImpl<$Res>
     extends _$WeatherStateCopyWithImpl<$Res>
-    implements $InitialWeatherStateCopyWith<$Res> {
-  _$InitialWeatherStateCopyWithImpl(
-      InitialWeatherState _value, $Res Function(InitialWeatherState) _then)
-      : super(_value, (v) => _then(v as InitialWeatherState));
+    implements _$$InitialWeatherStateCopyWith<$Res> {
+  __$$InitialWeatherStateCopyWithImpl(
+      _$InitialWeatherState _value, $Res Function(_$InitialWeatherState) _then)
+      : super(_value, (v) => _then(v as _$InitialWeatherState));
 
   @override
-  InitialWeatherState get _value => super._value as InitialWeatherState;
+  _$InitialWeatherState get _value => super._value as _$InitialWeatherState;
 }
 
 /// @nodoc
@@ -461,7 +413,7 @@ class _$InitialWeatherState implements InitialWeatherState {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is InitialWeatherState);
+        (other.runtimeType == runtimeType && other is _$InitialWeatherState);
   }
 
   @override
@@ -553,22 +505,22 @@ abstract class InitialWeatherState implements WeatherState {
 }
 
 /// @nodoc
-abstract class $LoadingWeatherStateCopyWith<$Res> {
-  factory $LoadingWeatherStateCopyWith(
-          LoadingWeatherState value, $Res Function(LoadingWeatherState) then) =
-      _$LoadingWeatherStateCopyWithImpl<$Res>;
+abstract class _$$LoadingWeatherStateCopyWith<$Res> {
+  factory _$$LoadingWeatherStateCopyWith(_$LoadingWeatherState value,
+          $Res Function(_$LoadingWeatherState) then) =
+      __$$LoadingWeatherStateCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$LoadingWeatherStateCopyWithImpl<$Res>
+class __$$LoadingWeatherStateCopyWithImpl<$Res>
     extends _$WeatherStateCopyWithImpl<$Res>
-    implements $LoadingWeatherStateCopyWith<$Res> {
-  _$LoadingWeatherStateCopyWithImpl(
-      LoadingWeatherState _value, $Res Function(LoadingWeatherState) _then)
-      : super(_value, (v) => _then(v as LoadingWeatherState));
+    implements _$$LoadingWeatherStateCopyWith<$Res> {
+  __$$LoadingWeatherStateCopyWithImpl(
+      _$LoadingWeatherState _value, $Res Function(_$LoadingWeatherState) _then)
+      : super(_value, (v) => _then(v as _$LoadingWeatherState));
 
   @override
-  LoadingWeatherState get _value => super._value as LoadingWeatherState;
+  _$LoadingWeatherState get _value => super._value as _$LoadingWeatherState;
 }
 
 /// @nodoc
@@ -584,7 +536,7 @@ class _$LoadingWeatherState implements LoadingWeatherState {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is LoadingWeatherState);
+        (other.runtimeType == runtimeType && other is _$LoadingWeatherState);
   }
 
   @override
@@ -676,22 +628,23 @@ abstract class LoadingWeatherState implements WeatherState {
 }
 
 /// @nodoc
-abstract class $NeedRegionWeatherStateCopyWith<$Res> {
-  factory $NeedRegionWeatherStateCopyWith(NeedRegionWeatherState value,
-          $Res Function(NeedRegionWeatherState) then) =
-      _$NeedRegionWeatherStateCopyWithImpl<$Res>;
+abstract class _$$NeedRegionWeatherStateCopyWith<$Res> {
+  factory _$$NeedRegionWeatherStateCopyWith(_$NeedRegionWeatherState value,
+          $Res Function(_$NeedRegionWeatherState) then) =
+      __$$NeedRegionWeatherStateCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$NeedRegionWeatherStateCopyWithImpl<$Res>
+class __$$NeedRegionWeatherStateCopyWithImpl<$Res>
     extends _$WeatherStateCopyWithImpl<$Res>
-    implements $NeedRegionWeatherStateCopyWith<$Res> {
-  _$NeedRegionWeatherStateCopyWithImpl(NeedRegionWeatherState _value,
-      $Res Function(NeedRegionWeatherState) _then)
-      : super(_value, (v) => _then(v as NeedRegionWeatherState));
+    implements _$$NeedRegionWeatherStateCopyWith<$Res> {
+  __$$NeedRegionWeatherStateCopyWithImpl(_$NeedRegionWeatherState _value,
+      $Res Function(_$NeedRegionWeatherState) _then)
+      : super(_value, (v) => _then(v as _$NeedRegionWeatherState));
 
   @override
-  NeedRegionWeatherState get _value => super._value as NeedRegionWeatherState;
+  _$NeedRegionWeatherState get _value =>
+      super._value as _$NeedRegionWeatherState;
 }
 
 /// @nodoc
@@ -707,7 +660,7 @@ class _$NeedRegionWeatherState implements NeedRegionWeatherState {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is NeedRegionWeatherState);
+        (other.runtimeType == runtimeType && other is _$NeedRegionWeatherState);
   }
 
   @override
@@ -799,29 +752,29 @@ abstract class NeedRegionWeatherState implements WeatherState {
 }
 
 /// @nodoc
-abstract class $LoadedWeatherStateCopyWith<$Res> {
-  factory $LoadedWeatherStateCopyWith(
-          LoadedWeatherState value, $Res Function(LoadedWeatherState) then) =
-      _$LoadedWeatherStateCopyWithImpl<$Res>;
+abstract class _$$LoadedWeatherStateCopyWith<$Res> {
+  factory _$$LoadedWeatherStateCopyWith(_$LoadedWeatherState value,
+          $Res Function(_$LoadedWeatherState) then) =
+      __$$LoadedWeatherStateCopyWithImpl<$Res>;
   $Res call({Forecast forecast});
 }
 
 /// @nodoc
-class _$LoadedWeatherStateCopyWithImpl<$Res>
+class __$$LoadedWeatherStateCopyWithImpl<$Res>
     extends _$WeatherStateCopyWithImpl<$Res>
-    implements $LoadedWeatherStateCopyWith<$Res> {
-  _$LoadedWeatherStateCopyWithImpl(
-      LoadedWeatherState _value, $Res Function(LoadedWeatherState) _then)
-      : super(_value, (v) => _then(v as LoadedWeatherState));
+    implements _$$LoadedWeatherStateCopyWith<$Res> {
+  __$$LoadedWeatherStateCopyWithImpl(
+      _$LoadedWeatherState _value, $Res Function(_$LoadedWeatherState) _then)
+      : super(_value, (v) => _then(v as _$LoadedWeatherState));
 
   @override
-  LoadedWeatherState get _value => super._value as LoadedWeatherState;
+  _$LoadedWeatherState get _value => super._value as _$LoadedWeatherState;
 
   @override
   $Res call({
     Object? forecast = freezed,
   }) {
-    return _then(LoadedWeatherState(
+    return _then(_$LoadedWeatherState(
       forecast == freezed
           ? _value.forecast
           : forecast // ignore: cast_nullable_to_non_nullable
@@ -847,7 +800,7 @@ class _$LoadedWeatherState implements LoadedWeatherState {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is LoadedWeatherState &&
+            other is _$LoadedWeatherState &&
             const DeepCollectionEquality().equals(other.forecast, forecast));
   }
 
@@ -857,8 +810,9 @@ class _$LoadedWeatherState implements LoadedWeatherState {
 
   @JsonKey(ignore: true)
   @override
-  $LoadedWeatherStateCopyWith<LoadedWeatherState> get copyWith =>
-      _$LoadedWeatherStateCopyWithImpl<LoadedWeatherState>(this, _$identity);
+  _$$LoadedWeatherStateCopyWith<_$LoadedWeatherState> get copyWith =>
+      __$$LoadedWeatherStateCopyWithImpl<_$LoadedWeatherState>(
+          this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -942,38 +896,39 @@ class _$LoadedWeatherState implements LoadedWeatherState {
 }
 
 abstract class LoadedWeatherState implements WeatherState {
-  const factory LoadedWeatherState(Forecast forecast) = _$LoadedWeatherState;
+  const factory LoadedWeatherState(final Forecast forecast) =
+      _$LoadedWeatherState;
 
-  Forecast get forecast;
+  Forecast get forecast => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $LoadedWeatherStateCopyWith<LoadedWeatherState> get copyWith =>
+  _$$LoadedWeatherStateCopyWith<_$LoadedWeatherState> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $ErrorWeatherStateCopyWith<$Res> {
-  factory $ErrorWeatherStateCopyWith(
-          ErrorWeatherState value, $Res Function(ErrorWeatherState) then) =
-      _$ErrorWeatherStateCopyWithImpl<$Res>;
+abstract class _$$ErrorWeatherStateCopyWith<$Res> {
+  factory _$$ErrorWeatherStateCopyWith(
+          _$ErrorWeatherState value, $Res Function(_$ErrorWeatherState) then) =
+      __$$ErrorWeatherStateCopyWithImpl<$Res>;
   $Res call({ErrorMessage message});
 }
 
 /// @nodoc
-class _$ErrorWeatherStateCopyWithImpl<$Res>
+class __$$ErrorWeatherStateCopyWithImpl<$Res>
     extends _$WeatherStateCopyWithImpl<$Res>
-    implements $ErrorWeatherStateCopyWith<$Res> {
-  _$ErrorWeatherStateCopyWithImpl(
-      ErrorWeatherState _value, $Res Function(ErrorWeatherState) _then)
-      : super(_value, (v) => _then(v as ErrorWeatherState));
+    implements _$$ErrorWeatherStateCopyWith<$Res> {
+  __$$ErrorWeatherStateCopyWithImpl(
+      _$ErrorWeatherState _value, $Res Function(_$ErrorWeatherState) _then)
+      : super(_value, (v) => _then(v as _$ErrorWeatherState));
 
   @override
-  ErrorWeatherState get _value => super._value as ErrorWeatherState;
+  _$ErrorWeatherState get _value => super._value as _$ErrorWeatherState;
 
   @override
   $Res call({
     Object? message = freezed,
   }) {
-    return _then(ErrorWeatherState(
+    return _then(_$ErrorWeatherState(
       message == freezed
           ? _value.message
           : message // ignore: cast_nullable_to_non_nullable
@@ -999,7 +954,7 @@ class _$ErrorWeatherState implements ErrorWeatherState {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is ErrorWeatherState &&
+            other is _$ErrorWeatherState &&
             const DeepCollectionEquality().equals(other.message, message));
   }
 
@@ -1009,8 +964,8 @@ class _$ErrorWeatherState implements ErrorWeatherState {
 
   @JsonKey(ignore: true)
   @override
-  $ErrorWeatherStateCopyWith<ErrorWeatherState> get copyWith =>
-      _$ErrorWeatherStateCopyWithImpl<ErrorWeatherState>(this, _$identity);
+  _$$ErrorWeatherStateCopyWith<_$ErrorWeatherState> get copyWith =>
+      __$$ErrorWeatherStateCopyWithImpl<_$ErrorWeatherState>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -1094,10 +1049,11 @@ class _$ErrorWeatherState implements ErrorWeatherState {
 }
 
 abstract class ErrorWeatherState implements WeatherState {
-  const factory ErrorWeatherState(ErrorMessage message) = _$ErrorWeatherState;
+  const factory ErrorWeatherState(final ErrorMessage message) =
+      _$ErrorWeatherState;
 
-  ErrorMessage get message;
+  ErrorMessage get message => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $ErrorWeatherStateCopyWith<ErrorWeatherState> get copyWith =>
+  _$$ErrorWeatherStateCopyWith<_$ErrorWeatherState> get copyWith =>
       throw _privateConstructorUsedError;
 }

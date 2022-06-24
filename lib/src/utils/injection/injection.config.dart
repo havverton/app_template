@@ -10,31 +10,31 @@ import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 import 'package:shared_preferences/shared_preferences.dart' as _i14;
 
-import '../app/app_module.dart' as _i27;
-import '../app/pages/home/bloc/weather_bloc.dart' as _i24;
-import '../app/routing/routing.dart' as _i3;
-import '../app/utils/utils.dart' as _i15;
-import '../core/classes/classes.dart' as _i9;
-import '../core/core.dart' as _i22;
-import '../modules/weather/data/mappers/weather_mapper.dart' as _i12;
-import '../modules/weather/data/region_data_source/region_data_source.dart'
+import '../../app/app_module.dart' as _i27;
+import '../../app/pages/home/bloc/weather_bloc.dart' as _i24;
+import '../../app/routing/routing.dart' as _i3;
+import '../../app/utils/utils.dart' as _i15;
+import '../../core/classes/classes.dart' as _i9;
+import '../../core/core.dart' as _i22;
+import '../../modules/weather/data/mappers/weather_mapper.dart' as _i12;
+import '../../modules/weather/data/region_data_source/region_data_source.dart'
     as _i16;
-import '../modules/weather/data/weather_data_source/dtos/weather_dto.dart'
+import '../../modules/weather/data/weather_data_source/dtos/weather_dto.dart'
     as _i10;
-import '../modules/weather/data/weather_data_source/weather_data_source.dart'
+import '../../modules/weather/data/weather_data_source/weather_data_source.dart'
     as _i20;
-import '../modules/weather/data/weather_repository.dart' as _i21;
-import '../modules/weather/domain/models/forecast.dart' as _i11;
-import '../modules/weather/domain/weather_interactor.dart' as _i23;
-import '../modules/weather/weather_module.dart' as _i28;
-import '../networking/dio_client_creator.dart' as _i18;
-import '../networking/dio_error_handler.dart' as _i6;
-import '../networking/dio_logger.dart' as _i17;
-import '../networking/networking_module.dart' as _i26;
-import '../utils/connectivity_service.dart' as _i5;
-import '../utils/environment_service.dart' as _i7;
-import '../utils/logger/logger.dart' as _i8;
-import '../utils/runtime_storage.dart' as _i13;
+import '../../modules/weather/data/weather_repository.dart' as _i21;
+import '../../modules/weather/domain/models/forecast.dart' as _i11;
+import '../../modules/weather/domain/weather_interactor.dart' as _i23;
+import '../../modules/weather/weather_module.dart' as _i28;
+import '../../networking/dio_client_creator.dart' as _i18;
+import '../../networking/dio_error_handler.dart' as _i6;
+import '../../networking/dio_logger.dart' as _i17;
+import '../../networking/networking_module.dart' as _i26;
+import '../connectivity_service.dart' as _i5;
+import '../environment_service.dart' as _i7;
+import '../logger/logger.dart' as _i8;
+import '../runtime_storage.dart' as _i13;
 import 'register_module.dart' as _i25; // ignore_for_file: unnecessary_lambdas
 
 // ignore_for_file: lines_longer_than_80_chars
